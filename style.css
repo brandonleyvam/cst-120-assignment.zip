@@ -51,4 +51,18 @@ p {
     margin-bottom: 15px;
 
 }
-.section-headinhg
+.section-heading {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #333;
+}
+
+.section-content {
+  text-align: center;
+  font-size: 1.1em;
+  color: #444;
+  margin-bottom: 20px;
+}
+
