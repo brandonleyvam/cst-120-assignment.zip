@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: #red;
+  color: red;
   font-weight: bold;
   text-decoration: underline
   text-align: center;
@@ -75,3 +75,4 @@ p {
   color: green;
   margin-top: 30px;
 }
+
