@@ -1,14 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #000;
+  color: #fff;
   margin: 40px;
   line-height: 1.6;
 }
 
 h1 {
-  color: #2c3e50;
+  color: #red;
+  font-weight: bold;
+  text-decoration: underline
   text-align: center;
+  font-size:2.5em;
 }
 
 ol, ul {
@@ -27,7 +30,7 @@ time {
   text-align: center;
   text-decoration: underline;
   font-size: 1.8em;
-  color: #333;
+  color: blue;
   margin-top: 20px;
 }
 
@@ -64,4 +67,11 @@ p {
   font-size: 1.1em;
   color: #444;
   margin-bottom: 20px;
+}
+.goals-heading {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+  color: green;
+  margin-top: 30px;
 }
