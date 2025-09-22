@@ -72,4 +72,12 @@ p {
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
+
+}
+.profile-pic {
+  float: left;
+  height: 200px;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00aaff;
 }
