@@ -1,4 +1,4 @@
-
+/*This will set the font, the background, color, and the spacing for the page*/
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: #000;
@@ -7,12 +7,12 @@ body {
   line-height: 1.6;
 }
 
-/* Image + heading layout */
+/* This will control the image flow as well as the layout spacing; for the 2 images and the line spacing */
 .intro-section {
   overflow: hidden;
 }
 
-/* Profile image styling */
+/* This will make the first image be in the top left position of the webpage and have a blue underglow to it */
 .profile-pic {
   float: left;
   height: 200px;
@@ -21,7 +21,7 @@ body {
   box-shadow: 0 0 10px #00aaff;
 }
 
-/* Shared heading layout */
+/* This will center and style all of the section headings; Hello World, About Me, My Goals, My Favorite Foods */
 .main-heading,
 .about-heading,
 .goals-heading,
@@ -33,7 +33,7 @@ body {
   position: relative;
 }
 
-/* Individual heading colors */
+/* This will give each of the headings their respective color as well as the underglow that corresponds to them */
 .main-heading {
   color: red;
 }
@@ -47,7 +47,7 @@ body {
   color: orange;
 }
 
-/* Matching gradient underlines */
+/* This will add the glowing undreline beneath the text, it will match the color of the heading's letters */
 .main-heading::after {
   content: "";
   position: absolute;
@@ -97,6 +97,7 @@ body {
   border-radius: 2px;
 }
 
+/* This will center the text below the heading and give them proper spacing too */
 .section-content {
   text-align: center;
   font-size: 1.1em;
@@ -104,24 +105,27 @@ body {
   margin-bottom: 20px;
 }
 
+/* This will add spacing to the lists as well as space inside the border*/
 ol, ul {
   padding-left: 20px;
 }
-
 li {
   margin-bottom: 5px;
 }
 
+/* This will give the date the style I want; italicized and gray */
 time {
   font-style: italic;
   color: #aaa;
 }
 
+/* This will style the paragraph, font size, how far it is from the margin, etc*/
 p {
   font-size: 1em;
   margin-bottom: 15px;
 }
 
+/* This will style the paragraph, specifically for the About Me section */
 .about-paragraph {
   text-align: left;
   text-indent: 30px;
@@ -131,14 +135,17 @@ p {
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
-
 }
+
+/* This will center my "Hello World" title since I was having a hard time getting it centered */
 .intro-section .main-heading {
   display: block;
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
+
+/* This gives my bottom right picture its' position, underglow color and location, as well as the size of the image*/
 .profile-pic-bottom {
   position: absolute;
   bottom: 20px;
@@ -146,5 +153,4 @@ p {
   height: 150px;
   border-radius: 10px;
   box-shadow: 0 0 10px orange;
-
 }
