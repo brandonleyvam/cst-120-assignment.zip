@@ -13,20 +13,23 @@ h1.main-heading,
   text-align: center;
   font-weight: bold;
   font-size: 2.5em;
-  margin-bottom: 5px;
+  margin-bottom: 40px;
   position: relative;
   color: #fff;
 }
 
+/* Glowing gradient underline effect */
 h1.main-heading::after,
 .about-heading::after,
 .goals-heading::after,
 .foods-heading::after {
   content: "";
-  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
   width: 60%;
   height: 4px;
-  margin: 8px auto 0;
   background: linear-gradient(to right, #00aaff, #00ffaa);
   box-shadow: 0 0 10px #00aaff;
   border-radius: 2px;
