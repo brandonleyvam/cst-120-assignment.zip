@@ -22,17 +22,6 @@ h1.main-heading {
   margin-top: 20px;
 }
 
-.about-paragraph {
-  text-align: left;
-  text-indent: 30px;
-  font-size: 1.1em;
-  line-height: 1.6;
-  color: #fff;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
 .goals-heading {
   text-align: center;
   text-decoration: underline;
@@ -74,3 +63,15 @@ p {
   margin-bottom: 15px;
 
 }
+.about-paragraph {
+  text-align: left;
+  text-indent: 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
