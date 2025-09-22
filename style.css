@@ -25,7 +25,7 @@ h1.main-heading {
 .about-paragraph {
   text-align: left;
   text-indent: 30px;
-  font-size: 1.8em;
+  font-size: 1.1em;
   line-height: 1.6;
   color: #fff;
   max-width: 700px;
@@ -74,3 +74,4 @@ p {
   margin-bottom: 15px;
 
 }
+
