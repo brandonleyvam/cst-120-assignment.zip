@@ -19,7 +19,7 @@ h1.main-heading {
   text-decoration: underline;
   font-size: 1.8em;
   color: #00aaff;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .goals-heading {
@@ -80,4 +80,8 @@ p {
   margin: 0 20px 20px 0;
   border-radius: 10px;
   box-shadow: 0 0 10px #00aaff;
+
+}
+.main-heading {
+  margin-bottom: 5px;
 }
