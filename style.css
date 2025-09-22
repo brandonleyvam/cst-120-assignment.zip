@@ -25,7 +25,7 @@ h1.main-heading {
 .about-paragraph {
   text-align: left;
   text-indent: 30px;
-  font-size: 1.2em;
+  font-size: 1.8em;
   line-height: 1.6;
   color: #fff;
   max-width: 700px;
@@ -36,7 +36,7 @@ h1.main-heading {
 .goals-heading {
   text-align: center;
   text-decoration: underline;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: green;
   margin-top: 30px;
 }
@@ -44,7 +44,7 @@ h1.main-heading {
 .foods-heading {
   text-align: center;
   text-decoration: underline;
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: orange;
   margin-top: 30px;
 }
@@ -72,4 +72,5 @@ time {
 p {
   font-size: 1em;
   margin-bottom: 15px;
+
 }
