@@ -6,36 +6,42 @@ body {
   line-height: 1.6;
 }
 
-h1.main-heading {
-  color: red;
-  font-weight: bold;
-  text-decoration: underline;
+h1.main-heading,
+.about-heading,
+.goals-heading,
+.foods-heading {
   text-align: center;
+  font-weight: bold;
   font-size: 2.5em;
+  margin-bottom: 5px;
+  position: relative;
+  color: #fff;
+}
+
+h1.main-heading::after,
+.about-heading::after,
+.goals-heading::after,
+.foods-heading::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 4px;
+  margin: 8px auto 0;
+  background: linear-gradient(to right, #00aaff, #00ffaa);
+  box-shadow: 0 0 10px #00aaff;
+  border-radius: 2px;
 }
 
 .about-heading {
-  text-align: center;
-  text-decoration: underline;
   font-size: 1.8em;
-  color: #00aaff;
-  margin-top: 5px;
 }
 
 .goals-heading {
-  text-align: center;
-  text-decoration: underline;
   font-size: 1.8em;
-  color: green;
-  margin-top: 30px;
 }
 
 .foods-heading {
-  text-align: center;
-  text-decoration: underline;
   font-size: 1.8em;
-  color: orange;
-  margin-top: 30px;
 }
 
 .section-content {
@@ -61,8 +67,8 @@ time {
 p {
   font-size: 1em;
   margin-bottom: 15px;
-
 }
+
 .about-paragraph {
   text-align: left;
   text-indent: 30px;
@@ -72,16 +78,12 @@ p {
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
-
 }
+
 .profile-pic {
   float: left;
   height: 200px;
   margin: 0 20px 20px 0;
   border-radius: 10px;
   box-shadow: 0 0 10px #00aaff;
-
-}
-.main-heading {
-  margin-bottom: 5px;
 }
