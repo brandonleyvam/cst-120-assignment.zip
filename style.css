@@ -130,4 +130,11 @@ p {
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
+
+}
+.intro-section .main-heading {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
