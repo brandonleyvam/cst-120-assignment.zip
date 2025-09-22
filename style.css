@@ -6,7 +6,22 @@ body {
   line-height: 1.6;
 }
 
-h1.main-heading,
+/* Image + heading layout */
+.intro-section {
+  overflow: hidden;
+}
+
+/* Profile image styling */
+.profile-pic {
+  float: left;
+  height: 200px;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00aaff;
+}
+
+/* Shared heading layout */
+.main-heading,
 .about-heading,
 .goals-heading,
 .foods-heading {
@@ -15,13 +30,59 @@ h1.main-heading,
   font-size: 2.5em;
   margin-bottom: 40px;
   position: relative;
-  color: #fff;
 }
 
-/* Glowing gradient underline effect */
-h1.main-heading::after,
-.about-heading::after,
-.goals-heading::after,
+/* Individual heading colors */
+.main-heading {
+  color: red;
+}
+.about-heading {
+  color: #00aaff;
+}
+.goals-heading {
+  color: green;
+}
+.foods-heading {
+  color: orange;
+}
+
+/* Matching gradient underlines */
+.main-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, red, #ff6666);
+  box-shadow: 0 0 10px red;
+  border-radius: 2px;
+}
+.about-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #00aaff, #00ffff);
+  box-shadow: 0 0 10px #00aaff;
+  border-radius: 2px;
+}
+.goals-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, green, lime);
+  box-shadow: 0 0 10px green;
+  border-radius: 2px;
+}
 .foods-heading::after {
   content: "";
   position: absolute;
@@ -30,21 +91,9 @@ h1.main-heading::after,
   bottom: -10px;
   width: 60%;
   height: 4px;
-  background: linear-gradient(to right, #00aaff, #00ffaa);
-  box-shadow: 0 0 10px #00aaff;
+  background: linear-gradient(to right, orange, gold);
+  box-shadow: 0 0 10px orange;
   border-radius: 2px;
-}
-
-.about-heading {
-  font-size: 1.8em;
-}
-
-.goals-heading {
-  font-size: 1.8em;
-}
-
-.foods-heading {
-  font-size: 1.8em;
 }
 
 .section-content {
@@ -81,12 +130,4 @@ p {
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
-}
-
-.profile-pic {
-  float: left;
-  height: 200px;
-  margin: 0 20px 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00aaff;
 }
