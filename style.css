@@ -154,3 +154,58 @@ p {
   border-radius: 10px;
   box-shadow: 0 0 10px orange;
 }
+/* This will style the Useful Resources heading */
+.resources-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #00ffff;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.resources-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+  width: 60%;
+  height: 4px;
+  background: linear-gradient(to right, #00ffff, #00aaff);
+  box-shadow: 0 0 10px #00ffff;
+  border-radius: 2px;
+}
+
+/* This will style the anchor links inside the resources section */
+.section-content a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+.section-content a:hover {
+  text-decoration: underline;
+}
+
+/* This will style the 3x3 table */
+.schedule-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  box-shadow: 0 0 10px #00aaff;
+}
+
+.schedule-table th {
+  background-color: #00aaff;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.schedule-table td {
+  padding: 8px;
+  border: 1px solid #444;
+}
